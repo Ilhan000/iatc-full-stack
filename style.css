@@ -1,0 +1,24 @@
+
+body{
+  background-color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.firstdiv{
+  margin-left: 350px;
+  margin-top: 100px;
+  background-color: hsl(212, 45%, 89%);
+  width: 900px;
+  height: 500px;
+  
+  
+
+  
+}
+.imagediv{
+  text-align: center;
+  padding: 50px;
+}
+.textdiv{
+  text-align: center;
+}
