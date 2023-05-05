@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    
+}
+.firstdiv{
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(rgb(115, 73, 232), hsla(256, 72%, 46%, 1));
+    border-radius: 25px;
+    margin-top: 150px;
+    margin-left: 400px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    
+    
+    
+}
+
+.number76{
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(rgb(91, 44, 222), rgb(89, 52, 190));
+    border-radius: 50%;
+    padding: 25px 30px;
+
+}
+.number100{
+    color: rgb(184, 178, 178);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.seconddiv{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 251, 251);
+    border-radius: 25px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 400px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: navy;
+    padding: 15px 30px;
+}
+.infos{
+    display: grid;
+    gap: 10px;
+    padding: 5px;
+}
+.info{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    
+}
+.Reaction{
+    color: rgb(240, 108, 108);
+}
+.Memory{
+    color: rgb(249,184,64);
+}
+.Verbal{
+    color:rgb(57,194,160);
+}
+.Visual{
+    color: rgb(42,58,214)
+}
+.ending{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(49, 49, 98);
+    color: white;
+    font-size: 20px;
+
+}
+
