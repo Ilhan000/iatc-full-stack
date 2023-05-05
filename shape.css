@@ -44,8 +44,8 @@
     width: 250px;
     height: 300px;
     background-color: gray;
-    border-radius: 15px;
     display: inline-block;
+    border-radius: 15px;
 
 
 }
@@ -54,4 +54,17 @@
 .text2{
     color: white;
 
+
+}
+.jonathanimg>img{
+    border-radius: 50%;
+    font-size: 20px;
+}
+.thirddiv{
+    width: 615px;
+    height: 300px;
+    background-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 150px;
 }
