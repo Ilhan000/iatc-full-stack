@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback-Board</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <div class="form-edit">
+        <div class="items">
+          <a href="index.html" style="text-decoration: none; color: black;">< Go back</a>
+          <a href="edit.html"><button style="width: 120px; height: 40px; background-color: #4661e6;color: #ffffff;border: #4661e6; border-radius: 7px;float: right;">
+            Edit Feedback
+          </button></a>
+          
+          <div class="header" style="margin-top: 20px;">
+            <img src="images/Group 4.svg" alt="" style="position: relative;; top: -10px;">
+            <h4>Create New Feeadback</h4>
+          </div>
+          <div class="title">
+            <h3>Feedback Title</h3>
+            <input type="text" placeholder=""                 style="
+            width: 370px;
+            height: 50px;
+            border: #ffffff;
+            background: #f7f8fd;
+          ">
+          
+          </div>
+          <div class="title">
+            <h3>Category</h3>
+            <span>Choose a category for your feedback</span>
+            <div>
+              <select
+                name="category"
+                id="category"
+                style="
+                  width: 370px;
+                  height: 50px;
+                  border: #ffffff;
+                  background: #f7f8fd;
+                "
+              >
+                <option value="Feature">Feature</option>
+                <option value="UI">UI</option>
+                <option value="UX">UX</option>
+                <option value="Enhancement">Enhancement</option>
+                <option value="Bug">Bug</option>
+              </select>
+            </div>
+          </div>
+          <div class="title">
+              <div class="title">
+                <h3>Feedback Detail</h3>
+                <span>
+                  Include any specific comments on what should be improved, added,
+                  etc.
+                </span>
+                <textarea name="text" id="text" cols="47" rows="3" style="border: #f7f8fd;"></textarea>
+                <br><br>
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-update" id="goodJobBtn">Add Feedback</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <script src="js/alert.js"></script>
+  </body>
+</html>

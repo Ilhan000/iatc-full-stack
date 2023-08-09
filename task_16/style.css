@@ -1,0 +1,91 @@
+body{
+    margin: 20px;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+}
+.btn{
+    width: 90px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #6540B5;
+    color: #6540B5;
+    font-weight: 600;
+
+}
+.btn:hover{
+    background-color: #6540B5;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.right>h1{
+    font-weight: 600;
+}
+.right>p{
+    color: rgb(161, 160, 160);
+}
+.btn1{
+    width: calc(100% - 40px);
+    height: 35px;
+    border: 1px solid #6540B5;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #6540B5;
+    font-weight: 600;
+
+
+}
+.btn1:hover{
+    background-color: #6540B5;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+.link1{
+    margin-top: 20px;
+    color: gray;
+    font-weight: 400;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.link2{
+    color: gray;
+    font-weight: 400;
+
+}
+.btn2{
+    width: 80px;
+    height: 40px;
+    background-color: #633BFE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #633BFE;
+    transition: 0.5s;
+ 
+}
+.btndiv{
+    display: flex;
+    justify-content: end;
+}
+.btn2:hover{
+    background-color: #FFFFFF;
+    color: #633BFE;
+}
+.lefty{
+    margin-left: 90px;
+    background-image: url(images/illustration-phone-mockup.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+ 
+    
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback-Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <section class="container mentor">
+        <div class="left-book col-xs-12 col-sm-12 col-md-3 col-lg-3" style="padding:5px;">
+            <div class="frontend">
+                <h1>Frontend Mentor</h1>
+                <span>Feedback Board</span>
+            </div>
+            <div class="second-in-row">
+                <button class="btn btn-common">All</button>
+                <button class="btn btn-common">UI</button>
+                <button class="btn btn-common">UX</button>
+                <button class="btn enhan">Enhancement</button>
+                <button class="btn btn-common">Bug</button>
+                <button class="btn fea">Feature</button>
+            </div>
+            <div class="roadmap-box">
+                <h2>Roadmap</h2>
+                <p><a href="">View</a></p>
+            </div>
+            <div class="bottom-list">
+                <div class="list-planned">
+                    <ul>
+                        <li>Planned</li>
+                        <li>In-Progress</li>
+                        <li>Live</li>
+                    </ul>
+                </div>
+                <div class="list-count">
+                    <ul>
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                    </ul>
+    
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="triple-box" style="display: flex;align-items: center; gap: 25px;">
+                    <div class="icon">
+                        <img src="images/Vector (4).svg" alt="vector">
+                    </div>
+                    <div class="suggest">
+                        6 Suggestions
+                    </div>
+                    <div class="sort">
+                        <span>Sort by:</span>
+                        <select name="sort" id="sort">
+                            <option value="most-up">Most Upvotes</option>
+                            <option value="least-up">Least Upvotes</option>
+                            <option value="most-com">Most Comments</option>
+                            <option value="least-com">Least Comments</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="add-btn">
+                    <a href="registration.html">
+                        <button>+ Add Feedback</button>
+                    </a>
+
+                </div>
+        </div>
+        <div class="Feedbackbox" style="display: flex; align-items: center;">
+            <div class="middle-place">
+                <img src="images/man-search-empty.svg" alt="man">
+                <h1>There is no feedback yet.</h1>
+                <span>
+                    Got a suggestion? Found a bug that needs to be squashed? <br>
+                    We love hearing about new ideas to improve our app.
+                </span>
+                <button class="add-btn-middle">
+                    <a href="registration.html  " style="text-decoration: none; color: white;">+Add Feedback</a>
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+  </section>
+</body>
+</html>
